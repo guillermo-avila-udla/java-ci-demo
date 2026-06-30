@@ -17,6 +17,7 @@ public class Main {
             </head>
             <body>
               <h1>Hello from Java CI/CD!</h1>
+              <h2>Hola desde Java CI/CD!</h2>
               <p>Este HTML fue generado desde Java y desplegado con GitHub Actions.</p>
             </body>
             </html>
