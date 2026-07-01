@@ -26,8 +26,8 @@ public class Main {
 
     public static void main(String[] args) throws IOException {
         Path outputDir = Path.of("output");
-        Files.createDirectories(outputDir);
-        Files.writeString(outputDir.resolve("index.html"), buildHtml(), StandardCharsets.UTF_8);
+          Files.createDirectories(outputDir);
+          Files.writeString(outputDir.resolve("index.html"), buildHtml(), StandardCharsets.UTF_8);
         System.out.println("HTML generado correctamente en output/index.html");
     }
 }
